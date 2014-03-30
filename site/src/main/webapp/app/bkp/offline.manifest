@@ -1,0 +1,9 @@
+CACHE MANIFEST
+#This is a comment47
+
+CACHE:
+
+NETWORK:
+*
+
+FALLBACK:

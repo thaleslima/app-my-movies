@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title></title>
+        <link rel="stylesheet" href="css/jquery.mobile-1.3.0.min.css" />
+        <link rel="stylesheet" href="css/app.css" />
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery.mobile-1.3.0.min.js"></script>
+        <script src="js/app.js"></script>
+    </head>
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+        
+        <div class="page-wait">
+        	<span class="ajax-loader"></span>
+        </div>
+            <div data-theme="a" data-role="header" >
+            	<div style="position:relative; height:50px">
+            		<fieldset data-role="controlgroup" data-mini="true" class="input-search">
+            			<input name="" id="searchinput1" placeholder="" value="" type="search"  />
+            		</fieldset>
+                </div>
+                
+                <div class="ui-btn-right">
+                    <a href="#" data-role="button" style="margin-right:8px;" id="btn-reflesh"  data-icon="refresh" data-iconpos="notext" data-theme="a" data-inline="true"></a>
+                    <a href="#" data-role="button" data-icon="bars" id="mostra-opcoes" data-iconpos="notext" data-theme="a" data-inline="true" ></a>
+                </div>
+                <ul class="opcoes-ul">
+	                <li class="opcoes-li">
+	                	<label class="opcoes-li-label">Visto</label>
+	                	<div class="opcoes-span">
+	                		<fieldset data-role="controlgroup" data-mini="true" data-type="horizontal" id="opcoes" >
+						    	<input type="radio" name="visto" id="visto-1" value="X" checked="checked" />
+						    	<label for="visto-1">Ambos</label>
+						
+								<input type="radio" name="visto" id="visto-2" value="S"  />
+						    	<label for="visto-2">Sim</label>
+						    	
+						    	<input type="radio" name="visto" id="visto-3" value="N"  />
+						    	<label for="visto-3">Não</label>
+							</fieldset>
+						</div>
+	                </li>
+	                
+	                <li class="opcoes-li">
+	                	<label class="opcoes-li-label">Ordenar por</label>
+	                	<div class="opcoes-span">
+	                		<fieldset data-role="controlgroup" data-mini="true" data-type="horizontal" id="opcoes" >
+						    	<input type="radio" name="ordenar" id="ordenar-1" value="id" checked="checked" />
+						    	<label for="ordenar-1">ID</label>
+						
+								<input type="radio" name="ordenar" id="ordenar-2" value="titulo"  />
+						    	<label for="ordenar-2">Titulo</label>
+						    	
+						    	<input type="radio" name="ordenar" id="ordenar-3" value="genero"  />
+						    	<label for="ordenar-3">Genero</label>
+							</fieldset>
+						</div>
+	                </li>
+	                
+	                <li class="opcoes-li">
+	                	<label class="opcoes-li-label">Agrupar </label>
+	                	<div class="opcoes-span">
+	                		<fieldset data-role="controlgroup" data-mini="true" data-type="horizontal" id="opcoes" >
+						    	<input type="radio" name="agrupar" id="agrupar-1" value="N" checked="checked" />
+						    	<label for="agrupar-1">Não</label>
+						
+								<input type="radio" name="agrupar" id="agrupar-2" value="S"  />
+						    	<label for="agrupar-2">Sim</label>
+							</fieldset>
+						</div>
+	                </li>
+                </ul>
+            </div>
+            
+            <div data-role="content" class="contentlistview">
+                <ul id="listview" data-role="listview" data-divider-theme="d" data-inset="false">
+                   
+                </ul>
+                
+                <ul id="listview2" data-role="listview" data-autodividers="true" data-divider-theme="d" >
+                   
+                </ul>
+            </div>
+        </div>
+        
+        
+        <script>
+            
+        </script>
+    </body>
+</html>

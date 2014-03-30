@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<meta charset="UTF-8" />
+	<link href="./../resources/css/layoutMenu.css" rel="stylesheet" type="text/css" />
+	<link href="./../resources/css/default.css" rel="stylesheet"  type="text/css"/>
+	<link href="./../resources/css/imagens.css" rel="stylesheet" type="text/css" />
+	<script src="./../resources/js/funcoes.js" ></script>
+	<title><ui:insert name="title">Filmes</ui:insert></title>
+</h:head>
+
+	<h:body>
+		 
+		 <aside>
+		 	<h:form id="formDialog" prependId="false">		   		
+				<p:growl id="mensagem-modal" showDetail="true" />
+				<p:messages id="mensagem-fixa" showDetail="true" />
+		
+				<p:dialog widgetVar="dialogMensagem" header="#{i18n['dialog.aviso']}"
+					modal="true" width="400" height="150" closable="false" id="dlg-msg">
+					<p:messages showDetail="true" id="dlg-msg-content" />
+						<center>
+							<p:commandButton value="OK"  styleClass="dlg-msg-btn" onclick="dialogMensagem.hide()" />
+						</center>
+				</p:dialog>
+		
+				<p:dialog widgetVar="dialogCarregando" header="#{i18n['dialog.atencao']}" modal="true" width="300"
+					height="150" resizable="false" closable="false" id="dlg-carregando">
+					<div class="dlg-carregando-content">
+						<p:graphicImage value="./../resources/images/img_carregando.gif" alt="" height="60" width="77" />
+						<br />
+						<h:outputText value="#{i18n['legenda.aguarde']}" styleClass="dlg-carregando-legenda" />
+					</div>
+				</p:dialog>
+				
+			</h:form>
+		</aside>
+		
+		<section>
+			<div id="content">
+				<ui:insert name="content"></ui:insert>
+			</div>
+		</section>
+		
+		<footer>
+			<div id="rodape">
+				<ui:insert name="rodape">Copyright 2012</ui:insert>
+			</div>
+		</footer>
+		
+	</h:body>
+
+</html>

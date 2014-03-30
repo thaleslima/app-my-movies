@@ -1,0 +1,116 @@
+.body
+{
+	background-color: aqua;
+}
+
+#titulo-filme{
+	text-align: left;
+	margin-top: .9em;
+	margin-bottom: .9em;
+	margin-right: 0;
+	margin-left: .8em;
+}
+
+.item-desc
+{
+	margin-top: 0.2em;
+	white-space:normal;
+}
+
+div.ui-slider-switch
+{ 
+	width: 9em !important; 
+}
+
+.footer-resumo
+{
+	text-align: center;
+}
+
+
+.opcoes-ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.opcoes-li
+{
+	margin:0;
+	border: 1px solid #CCC /*{c-bup-border}*/;
+	border-width: 0;
+}
+
+.opcoes-li-label
+{
+	font-weight: bold;
+	color: gray;
+	vertical-align: middle;
+	display: inline-block;
+	font-size:12px;
+	margin: 0 4px 0 4px;
+	width:50px;
+}
+.opcoes-span
+{
+	display:inline-block;
+}
+
+.opcoes-li-p-hide
+{
+	display:none;
+}
+
+#listview:first-child li
+{
+	border-width: 0 !important;
+}
+
+#listview2:first-child li
+{
+	border-width: 0 !important;
+}
+
+.input-search
+{
+	position:absolute;
+	left:0;
+	right:80px;
+	top: -4px;	
+}
+
+.ui-btn-right
+{
+	position:absolute;
+	right:2px;
+	top:5px !important;
+	margin-top: 7px !important;
+}
+
+.page-wait
+{
+	display:none;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color:#000;
+	z-index:999;
+	opacity:0.5;	
+}
+
+.ajax-loader
+{
+	position:absolute;
+	width:46px;
+	height:46px;
+	background-image:url(images/ajax-loader.gif);
+	left:50%;
+	top:150px;
+}
+
+.contentlistview .ui-btn-inner
+{
+	border-top: 0;
+}

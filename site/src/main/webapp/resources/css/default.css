@@ -1,0 +1,353 @@
+html {
+	background: #5291A5 url(../images/fundo.jpg) center 0px repeat;
+	background: #64a6be;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif !important;
+}
+
+.ui-widget
+{
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif !important;
+}
+
+body {
+	margin: 0;
+	font-size: 12px;
+	background: #e2e4d9;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	min-width: 900px;
+}
+
+h1 {
+	color: #aaaaaa;
+}
+
+#imgCadastro {
+	float: left;
+	padding-right: 15px;
+}
+
+
+
+
+
+#camposPesquisa {
+	margin-right: 20px;
+	padding: 20px;
+}
+
+.display{
+	width: 500px;
+}
+
+
+
+
+
+
+
+
+
+.vistoS{
+	background: #64a6be;
+	border: #64a6be none 0px !important;
+	border-bottom: #4e899f solid 1px !important;
+	color:white;
+}
+
+.vistoS:HOVER {
+	background: #4e899f !important;
+	border: #4e899f solid 0px !important;
+	border-bottom: #4e899f solid 1px !important;
+}
+
+
+
+.center {
+	text-align: center;
+}
+
+.tabUsuario1 {
+	padding-left: 2px;
+}
+
+.tabUsuario2 {
+	padding-top: 25px;
+	padding-left: 50px;
+}
+
+.tabGrupo1 {
+	padding-left: 25px;
+}
+
+.tabGrupo2 {
+	padding-top: 25px;
+	padding-left: 50px;
+}
+
+
+
+.erro {
+	margin-left: 10px;
+	color: red;
+	font-weight: bold;
+}
+
+.botaoAzul
+{
+	background: #64a6be !important;
+	color: white !important;
+}
+
+
+
+.camposCad1{
+	border-collapse:collapse;
+}
+
+
+.camposCad1 td {
+	height: 32px;
+	border-bottom: solid 1px #e9e9e9;
+}
+
+.camposCad2 tr:HOVER {
+	background-color: #f7f7f7;
+}
+
+.camposCad3 td {
+	height: 40px;
+}
+
+.textoInput {
+	text-align: right;
+	padding-right: 10px;
+	padding-left: 20px;
+	font-weight: bold;
+	color: gray;
+}
+
+.input3 {
+	min-width:320px;
+	padding-left: 10px;
+}
+
+.inputErro
+{
+	padding-right: 20px;
+	padding-left: 10px;
+	width: 70px;
+}
+
+
+.tvUsuario{
+	width: 600px;
+	height: 350px;
+}
+
+
+/*header imagem page cadastro - inicio*/
+#titulo-page-cad
+{
+	background-image: url("../images/darkedbg.jpg");
+	background-position: 10em;
+	height: 80px;	
+}
+#titulo-page-cad-img
+{
+	margin-top: 5px;
+	margin-left: 30px;
+}
+/*header imagem page cadastro - fim*/
+
+
+
+/*diolog carregando - inicio*/
+.dlg-carregando-content
+{
+	text-align: center;
+}
+.dlg-carregando-legenda
+{
+	font-size: 20px;
+}
+/*diolog carregando - fim*/
+
+
+
+/*diolog mensagem - inicio*/
+.dlg-msg-btn
+{
+	width: 100px;
+	margin-top: 20px;
+}
+/*diolog mensagem - fim*/
+
+
+
+/*inputs personalizados - inicio*/
+.input-width-300 {
+	width: 300px;
+}
+.input-height-100 {
+	height: 100px;
+}
+/*inputs personalizados - fim*/
+
+
+
+/*menu cadastro - inicio */
+.menu-cadastro {
+	padding-right: 20px ;
+	padding-left: 20px ;
+}
+#menu-cadastro-toolbar {
+	margin-top: -10px;
+}
+.menu-cad-toolbar-pesq
+{
+	margin-top: 3px;
+	margin-right: 20px;
+}
+/*menu cadastro - fim */
+
+
+
+/*conteudo da pagina - grid* - inicio */
+.content-grid{
+	margin-left:20px;
+	margin-right:20px;
+	padding:15px;
+	min-height: 500px;
+	background-color: white !important;
+	-moz-border-radius: .4em;
+	-webkit-border-radius: .4em;
+	border-radius: .4em;
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+}
+/*conteudo da pagina - grid* - inicio */
+
+
+/*tabela com o resultado da consulta - inicio */
+.grid-entidades{
+	margin-top: 20px;
+}
+.grid-entidades tr {
+	border: #FFFFFF none 0px;
+	border-bottom: #eeeeee solid 1px;
+}
+.grid-entidades-hover tr:HOVER {
+	background: #ededed;
+	border: #ededed solid 1px;
+}
+.grid-btn{
+	width: 21px;
+	height: 21px;
+}
+
+.grid-center
+{
+	text-align: center;
+}
+
+.grid-width-5
+{
+	width: 5%;
+}
+/*tabela com o resultado da consulta - fim */
+
+
+/*formulario cadastro - inicio */
+.form-cad
+{
+	padding: 20px;
+}
+.form-cad-campos{
+	width: 500px;
+}
+.form-cad-botoes {
+	margin-top: 10px;
+	height: 30px;
+}
+.form-btn-cancelar {
+	float: right;
+	margin-right: 5px;
+}
+.form-btn-confirmar {
+	float: right;
+}
+.form-cad-header {
+	color: #aaaaaa;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	border-bottom: solid 2px #aaaaaa ;
+	padding-bottom: 5px;
+}
+.form-cad-ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.form-cad-li
+{
+	padding:.4em 10px;
+	margin:0;
+	border: 1px solid #CCC /*{c-bup-border}*/;
+	border-width: 0;
+	border-top-width:1px;
+	background-image: none;
+	//background: #EEE /*{c-bup-background-color}*/;
+}
+.form-cad-li-bottom
+{
+	border-bottom-width:1px;
+}
+.form-cad-li:HOVER
+{
+	background-color: #F7F7F7;
+}
+.form-cad-li-label
+{
+	font-weight: bold;
+	color: gray;
+	vertical-align: top;
+	display: inline-block;
+	width: 22%;
+	margin: 0 3% 0 0;
+}
+.form-cad-li-span
+{
+	margin: 0;
+	width: 70%;
+	display: inline-block;
+	background-image: none;
+}
+.form-cad-li-input-text
+{
+	margin: 0;
+	width: 70%;
+	display: inline-block;
+	background-image: none;
+	padding: .4em;
+	font-size: 16px;
+	border-radius: .6em /*{global-radii-blocks}*/;
+	border: 1px solid #AAA /*{c-body-border}*/;
+	-moz-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+	-webkit-box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .2);
+	box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .2);
+	outline: 0;
+}
+.ui-btn:focus {
+	-moz-box-shadow: inset 0px 0px 3px 		#387bbe /*{global-active-background-color}*/, 0px 0px 9px 		#387bbe /*{global-active-background-color}*/;
+	-webkit-box-shadow: inset 0px 0px 3px 	#387bbe /*{global-active-background-color}*/, 0px 0px 9px 		#387bbe /*{global-active-background-color}*/;
+	box-shadow: inset 0px 0px 3px 			#387bbe /*{global-active-background-color}*/, 0px 0px 9px 		#387bbe /*{global-active-background-color}*/;
+}
+/*formulario cadastro - fim */

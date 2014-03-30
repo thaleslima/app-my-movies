@@ -1,0 +1,62 @@
+.body
+{
+	background-color: aqua;
+}
+
+#titulo-filme{
+	text-align: left;
+	margin-top: .9em;
+	margin-bottom: .9em;
+	margin-right: 0;
+	margin-left: .8em;
+}
+
+.item-desc
+{
+	margin-top: 0.2em;
+	white-space:normal;
+}
+
+div.ui-slider-switch
+{ 
+	width: 9em !important; 
+}
+
+.footer-resumo
+{
+	text-align: center;
+}
+
+
+.opcoes-ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.opcoes-li
+{
+	margin:0;
+	border: 1px solid #CCC /*{c-bup-border}*/;
+	border-width: 0;
+}
+
+.opcoes-li-label
+{
+	font-weight: bold;
+	color: gray;
+	vertical-align: middle;
+	display: inline-block;
+	font-size:12px;
+	margin: 0 4px 0 4px;
+	width:50px;
+}
+.opcoes-span
+{
+	display:inline-block;
+}
+
+.opcoes-li-p-hide
+{
+	display:none;
+}
